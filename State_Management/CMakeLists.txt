@@ -36,6 +36,8 @@ set(SM_SRC_FILES
 )
 
 
+set (CMAKE_RUNTIME_OUTPUT_DIRECTORY "../../SW_packages/SMProcess")
+
 add_executable(state_manager ${SM_SRC_FILES})
 
 target_include_directories(state_manager PUBLIC  ${SM_INC_DIR} ${RAPID_JSON})

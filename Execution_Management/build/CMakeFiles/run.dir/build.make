@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = "/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management"
+CMAKE_SOURCE_DIR = "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = "/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build"
+CMAKE_BINARY_DIR = "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build"
 
 # Utility rule file for run.
 
@@ -67,8 +67,8 @@ include CMakeFiles/run.dir/compiler_depend.make
 include CMakeFiles/run.dir/progress.make
 
 CMakeFiles/run: ExecutionManagerexe
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running ExecutionManagerexe project"
-	"/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build/ExecutionManagerexe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir="/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Running ExecutionManagerexe project"
+	"/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build/ExecutionManagerexe"
 
 run: CMakeFiles/run
 run: CMakeFiles/run.dir/build.make
@@ -83,6 +83,6 @@ CMakeFiles/run.dir/clean:
 .PHONY : CMakeFiles/run.dir/clean
 
 CMakeFiles/run.dir/depend:
-	cd "/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management" "/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management" "/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build" "/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build" "/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build/CMakeFiles/run.dir/DependInfo.cmake" --color=$(COLOR)
+	cd "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build" && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management" "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management" "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build" "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build" "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/build/CMakeFiles/run.dir/DependInfo.cmake" --color=$(COLOR)
 .PHONY : CMakeFiles/run.dir/depend
 

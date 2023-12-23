@@ -1,3 +1,3 @@
-/home/liliane/Downloads/SM - Copy/build/CMakeFiles/state_manager.dir
-/home/liliane/Downloads/SM - Copy/build/CMakeFiles/edit_cache.dir
-/home/liliane/Downloads/SM - Copy/build/CMakeFiles/rebuild_cache.dir
+/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/State_Management/build/CMakeFiles/state_manager.dir
+/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/State_Management/build/CMakeFiles/edit_cache.dir
+/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/State_Management/build/CMakeFiles/rebuild_cache.dir

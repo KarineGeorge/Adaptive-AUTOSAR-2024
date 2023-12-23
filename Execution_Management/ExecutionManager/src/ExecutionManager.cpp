@@ -29,12 +29,10 @@ namespace ara
                                                        
 				// Specify the path to the folder of software packages
 				
-				// std::string folderPath = "/home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/SW_packages";
 
 				std::string folderPath = "../../SW_packages";
-				// /home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/ExecutionManager
-				// /home/karine/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/Execution_Management/ExecutionManager/src
-
+				
+				
 				// Iterate over the contents of the directory
 				for (const auto &entry : fs::directory_iterator(folderPath))
 				{

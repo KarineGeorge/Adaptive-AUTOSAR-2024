@@ -1,4 +1,6 @@
 file(REMOVE_RECURSE
+  "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/SW_packages/SMProcess/state_manager"
+  "/home/tantawy/Desktop/Graduation Project Repository/Adaptive-AUTOSAR-2024/SW_packages/SMProcess/state_manager.pdb"
   "CMakeFiles/state_manager.dir/src/CalibrationData.cpp.o"
   "CMakeFiles/state_manager.dir/src/CalibrationData.cpp.o.d"
   "CMakeFiles/state_manager.dir/src/EmFacade.cpp.o"
@@ -43,8 +45,6 @@ file(REMOVE_RECURSE
   "CMakeFiles/state_manager.dir/src/state_client.cpp.o.d"
   "CMakeFiles/state_manager.dir/src/triggers.cpp.o"
   "CMakeFiles/state_manager.dir/src/triggers.cpp.o.d"
-  "state_manager"
-  "state_manager.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

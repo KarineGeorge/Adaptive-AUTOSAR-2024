@@ -2,8 +2,8 @@
 
 //deactivate 8lllllllllllllllllt
 
-#define calibrationDataPath "/home/liliane/SM/CalibrationData.json"
-//#define MachinePath "machine_manifest.json"
+#define calibrationDataPath "../../State_Management/CalibrationData.json"
+#define MachinePath "../../machine_manifest.json"
 
 
 
@@ -11,7 +11,7 @@
 EmFacade StateManager::extract(vector<adp::sm::internal::GroupsAndStates>& groupsAndStates)
 {
 
-	string machineManifestPath = "/home/liliane/Downloads/Execution_Management_Functional_Cluster-main (1)/machine_manifest.json";
+	string machineManifestPath = MachinePath;
 	ara::exec::MachineManifest obj(machineManifestPath);
 	obj.parseMachineManifest();
 
