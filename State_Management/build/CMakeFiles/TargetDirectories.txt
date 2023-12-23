@@ -1,0 +1,3 @@
+/home/liliane/Downloads/SM - Copy/build/CMakeFiles/state_manager.dir
+/home/liliane/Downloads/SM - Copy/build/CMakeFiles/edit_cache.dir
+/home/liliane/Downloads/SM - Copy/build/CMakeFiles/rebuild_cache.dir

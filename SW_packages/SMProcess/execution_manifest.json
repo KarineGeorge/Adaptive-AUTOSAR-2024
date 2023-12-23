@@ -1,0 +1,41 @@
+{
+    "functional_cluster_process": false,
+    "state_client_process": true,
+    "startup_configs":
+    [
+        {
+            "config_name":"process_A_config_name_1",
+            "execution_dependency":
+            [
+            ],
+            
+            "machine_states":
+            [
+              "startup"
+            ],
+
+            "function_group_states":
+            {
+                "function_group_name":"",
+                "function_group_state": [
+                ]
+            },
+            "scheduling_policy":"SCHED_OTHER",
+            "scheduling_priority":"5",
+            "arguments":[
+                "arg_1",
+                "arg_2"
+            ],
+            "environments":[
+                "env1",  
+                "env2"
+            ],
+            "timeout":
+            {
+                "enter_timeout_ns":6000,
+                "exit_timeout_ns":6000
+            }
+            
+        }
+    ]
+}

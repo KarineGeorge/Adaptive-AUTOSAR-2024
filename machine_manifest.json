@@ -1,0 +1,31 @@
+{
+	"function_groups": 
+	[
+	{"function_group":
+	{
+		    "name": "MachineFG",
+			"states": [
+				"running",
+				"sleep"
+			]
+		}},
+		{"function_group":
+		 {
+		    "name":"fn1",
+			"states": [
+				"play",
+				"stop",
+				"shutdown"
+			]
+		}},
+		{"function_group":
+		{
+		    "name":"fn2",
+			"states": [
+				"turnOn",
+				"turnOff",
+				"shutdown"
+			]
+		}}
+	]
+}
